@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University web Design</title>
+        <link rel="stylesheet" href="stl.css">
+        <script src="https://kit.fontawesome.com/2b180732d7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+                <div class="nav-link" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Course</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi odit consectetur explicabo beatae doloribus consequuntur perspiciatis quibusdam magni nemo ullam provident quia incidunt similique perferendis placeat magnam non, maiores voluptatibus?</p>
+                <a href="" class="hero-btn">Visit Us To know More</a>
+            </div>
+        </section>
+    
+
+
+        <!-- course -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe adipisci in ipsam architecto odio minima sequi aperiam ad repellendus, nobis veniam debitis, velit illo sunt optio, consectetur error totam?</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe adipisci in ipsam architecto odio minima sequi aperiam ad repellendus, nobis veniam debitis, velit illo sunt optio, consectetur error totam?</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe adipisci in ipsam architecto odio minima sequi aperiam ad repellendus, nobis veniam debitis, velit illo sunt optio, consectetur error totam?</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- compus section -->
+        <section class="campus">
+            <h1>Our Global Camous</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+
+
+
+
+        <!-- javaScript for toggle menu -->
+        <!-- To do some funtion onclick -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-300px";
+        }
+
+    </script>
+
+    </body>
+</html>
